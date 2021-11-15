@@ -1,0 +1,17 @@
+
+spring.datasource.url: 'jdbc:postgresql://localhost:5432/onlineshop'
+
+spring.datasource.username: 'postgres'
+spring.datasource.password: '12345'
+spring.jpa.generate-ddl: true
+spring.jpa.hibernate.ddl-auto: 'update'
+spring.datasource.driver-class-name: 'org.postgresql.Driver'
+
+spring.jpa.database: 'postgresql'
+spring.jpa.database-platform: 'org.hibernate.dialect.PostgreSQL10Dialect'
+
+draft:
+  currencyMap:
+    "RUBLE": "RUBLE"
+    "DOLLAR": "DOLLAR"
+    "EURO": "EURO"
